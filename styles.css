@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  width: 200px; /* Total width of the grid */
+  height: 200px; /* Total height of the grid */
+  gap: 0; /* No spacing between grid items (optional) */
+}
+
+.item {
+  /* No additional styling required for items */
+}
